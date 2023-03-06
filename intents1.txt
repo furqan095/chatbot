@@ -1,0 +1,409 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you"
+                        ],
+                        "responses": [
+                                "Mohammad Furqan developed me in 2022."
+                   	],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me UD Chatbot",
+                                "I'm a University Enquiry Chatbot, UD"
+		            ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of University",
+                                "what is university timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the university open",
+                                "university timing",
+                                "what about university timing",
+                                "is university open on saturday",
+                                "tell something about university timing",
+                                "what is the university  hours",
+                                "when should i come to university",
+                                "when should i attend university",
+                                "what is my university time",
+                                "university timing",
+                                "timing university"
+                        ],
+                        "responses": [
+                                "university is open 9am-5pm Monday-Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+
+                                "more info",
+                                "contact info",
+                                "how to contact university",
+                                "university telephone number",
+                                "university number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "university phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at 01332590500"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in University of Derby",
+                                "what are the courses offered in your university?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in University of Derby",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at UoD?",
+                                "branches available at UoD?",
+                                "what are the courses in UoD?",
+                                "what are branches in UoD?",
+                                "what are courses in UoD?",
+                                "branches available in UoD?",
+                                "can you tell me the courses available in UoD?",
+                                "can you tell me the branches available in UoD?",
+                                "Civil engineering?",
+                                "Computer engineering?",
+                                "IT engineering?",
+                                "Automobile engineering?",
+                                "Mechanical engineering?",
+                                "EXTC engineering?",
+                                "Electrical engineering?"
+                        ],
+                        "responses": [
+                                "Bachelors Programmes provided are Accounting, Art and Design, Architecture, Biology and Zoology, Biomedical Science and Human Biology, Business, Computing, Engineering, Economics and Finance, Forensic science, Journalism, Law, Marketing, Mathematics, Music, Psychology among many others. For more information, visit <a target=\"_blank\" href=\"https://www.derby.ac.uk/undergraduate/subjects/\"> here</a>"],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "university fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees"
+                        ],
+                        "responses": [
+                                "For Fee details visit <a target=\"_blank\" href=\"https://www.derby.ac.uk/study/fees-finance/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the university located",
+                                "university is located at",
+                                "where is university",
+                                "where is university located",
+                                "address of university",
+                                "how to reach university",
+                                "university location",
+                                "university address",
+                                "wheres the university",
+                                "how can I reach university",
+                                "whats is the university address",
+                                "what is the address of university",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "Kedleston Rd, Derby DE22 1GB"
+																			
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "facilities",
+                                "infrastructure",
+                                "building",
+                                "number of floors in bulding",
+                                "university infrastructure",
+                                "departments and labs",
+                                "departments",
+                                "labs",
+                                "canteen",
+                                "tell me about infrastructure",
+                                "what about infrastructure"
+                        ],
+                        "responses": [
+                                " To know about the facilities, visit <a target=\"_blank\" href=\"https://www.derby.ac.uk/study/facilities/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the university have library facility",
+                                "university library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "We’ve made sure our libraries are light and airy spaces, which feel welcoming and contemporary. They are open throughout the year, with extended hours during the busiest times. For more details visit <a target=\"_blank\" href=\"https://www.derby.ac.uk/study/facilities/library/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "random",
+                        "patterns": [
+                                
+                                "I love you",
+                                "Will you marry me",
+                                "Do you love me"
+                        ],
+                        "responses": [
+                                "I am not programmed for this please ask appropriate query"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "swear",
+                        "patterns": [
+                                "fuck",
+                                "bitch",
+                                "shut up",
+                                "hell",
+                                "stupid",
+                                "idiot",
+                                "dumb ass",
+                                "asshole",
+                                "fucker"
+                        ],
+                        "responses": [
+                                "please use appropriate language",
+                                "Maintaining decency would be appreciated"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding university",
+                                "You can ask me questions regarding university, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                " bus route",
+                                "mode of transportation",
+                                "how to get to university",
+                                "buses for university",
+                                "university buses",
+                                "bus routes",
+                                "list of buses for travelling"    
+                        ],
+                        "responses":[
+                                "Our buses run all year round, from a range of locations, across the city. Find more <a target=\"_blank\" href=\"https://www.derby.ac.uk/find-us/derby/travelling-to-derby-by-bus/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"scholarship",
+                        "patterns":[
+                                "scholarship",
+                                "Is scholarship available",
+                                "scholarship engineering",
+                                "available scholarships",
+                                "list of scholarship"
+                                
+                        ],
+                        "responses":[
+                                "We have a number of funding opportunities available to students. You must apply to study at the University of Derby before you can apply for our scholarships.. For details and updates visit <a target=\"_blank\" href=\"https://www.derby.ac.uk/undergraduate/fees-and-finance/scholarships-and-bursaries/>here</a>"
+                        ]
+                },
+                {
+                        "tag":"faculty",
+                        "patterns":[
+                                "faculty",
+                                "faculty details",
+                                "faculty fe",
+                                "faculty se",
+                                "faculty te",
+                                "faculty be",
+                                "give faculty details",
+                                "tell me about the faculty",
+                                "how is the faculty",
+                                "staff",
+                                "please give information about faculty",
+                                "faculty information",
+                                "faculty?"
+                        ],
+                        "responses":[
+                                "University of Derby has a highly qualified and experienced faculty. For details visit <a target=\"_blank\" href=/\"https://www.derby.ac.uk/staff/\">here</a>"
+                        ]
+                },
+                
+                {
+                        "tag":"sports",
+                        "patterns":[
+                                "sports and games",
+                                "give sports details",
+                                "sports infrastructure",
+                                "sports facilities",
+                                "sports facilities",
+                                "information about sports",
+                                "please provide sports and games information"
+                        ],
+                        "responses":[
+                                "Our fantastic £10.8 million Sports Centre is fully equipped with state-of-the-art facilities including a superb fitness suite, 3G pitches, tennis courts and climbing wall.. For more details visit<a target=\"_blank\" href=/\"https://www.derby.ac.uk/study/facilities/sports-centre/\">here</a>"
+                        ]
+                }
+                
+                
+        ]
+}
